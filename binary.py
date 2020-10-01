@@ -21,4 +21,7 @@ if __name__ == '__main__':
             if maxx<count:
                 maxx=count
             count=0
-   
+   if maxx<count:
+        print(count)
+    else:
+        print(maxx)
